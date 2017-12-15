@@ -1,0 +1,25 @@
+{
+    "name": "web2all/shell",
+    "description": "Web2All shell tooling (argument parsing)",
+    "keywords": ["web2all","shell","arg"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Merijn van den Kroonenberg",
+            "homepage": "https://github.com/merijnvdk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
+
